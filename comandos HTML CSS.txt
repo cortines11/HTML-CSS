@@ -1,0 +1,144 @@
+<h1> Exemplo de título </h1>
+<p> exemplo de parágrafo </p>
+<img src="foto.png" alt="exemplo de foto"> (caso n apareça a imagem_
+
+Estilo em CSS
+
+h1 {
+    font-family: Arial;
+    font-size: 20pt;         não esquecer ;
+    color: blue; 
+   }
+
+EMOJIS + SIMBOLOS
+
+&#x + CÓDIGO EMOJI;
+&lt; &gt; < > (maior menor)
+& + código símbolo
+
+favicon.io para transformar icones
+
+<Style> body {background-color: blueviolet;}
+
+Negrito: B ou STRONG (semântica)
+Itálico: I ou EM (semântica)
+mark: marcação de texto
+
+style "tipo de edição": escolher a cor
+
+Sublinhado: U ou INS (semântica)
+Texto riscado: del
+
+texto superior: SUP
+texto inferior: SUB
+
+<code> deixar as letras do mesmo tamanho
+
+usar pre antes do code quando for código python
+
+<q> citação (")
+
+<blockquote> mencionar citação / <cite> fonte
+
+    <ol type= "1" start= "1">
+        <li> Acordar</li>
+    </ol>
+
+lista = <ol> ordenada <ul> n ordenada / type= "" contage da lista 1, i, a / start= "" onde começa
+<li> lista automática
+
+links <a>
+
+rel="next" (proxima pagina) "prev" (pagina anterior) ao colocar link interno
+
+../ para selecionar pasta anterior
+
+envepolar > abb > abbr - caixa de texto quando passar o mouse em cima
+
+IMAGENS DINAMICAS
+
+<source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+ <source media="(max-width:1030px )" srcset="imagens/foto-m.png" type="image/png">
+<img src="imagens/foto-g.png" alt="Imagem flexível">
+
+max-width- larguma maxima para ocorrer a troca, (abaixo daquele tamanho irá mudar a imagem)
+srcset - a partir daquela largura, qual imagem será colocada
+usar código img para selecionar imagem "no tamanho original"
+
+<audio src="inserir aquivo de aúdio"> --- incluir audio
+controls> para gerar um controle 
+autoplay> tocar automaticamente
+
+<audio preload="" autoplay controls loop>        ------ modo alternativo para adicionar audio
+        <source src="aquivo mp3" type="audio/mpeg"> -- inserir sorcer src manualmente
+</audio>
+para aquivos mp3 usar audio/mpeg
+ogg >> audio/ogg
+wav>> audio/wav
+
+usar style dentro do comando style="text-align" alinhas textos
+style="color" mudar cor da letra
+
+height: 100%; muda a altura
+width: 600%; muda a largura
+padding:10px; deixa uma sobra na caixa de texto
+margin: auto; centraliza a caixa de texto 
+border-radius -> cantos da caixa arredondados
+box-shadow / text-shadow- > sombra da caixa
+Ex:	box-shadow: 5px 5px 15px cor(138, 111, 95, 0.616);
+		text-shadow: 1px 1px 2px cor(129, 78, 5, 0.733);
+
+abreviação pra editação das fontes
+- font style  -> font-weight -> font-size -> fonte family
+exemplo: 
+font: italic bolder 3em Arial, sans-serif; (talvez precise de aspas no nome da fonte)
+
+@font-face{}
+src:url() <- colocar o nome do arquivo da fonte ou selecionar a pasta aonde está
+
+em HTML é ID = em CSS é #
+em HTML é class = em css é .
+
+usar <h1 id="principal"> para poder editar coisas pontuais, h1 apenas exemplo. (apenas 1)
+
+usar <h2 class="nome da classe"> para editar coisas pontuais após ja ter usado um id="principal"
+
+usar :hover para mudar a cor ao passar o mouse por cima
+
+ex: div:hover{background-color: black;}
+
+sumir com marcação, ex => div > p{display:none;} p é filho de div (hierarquia)
+aparece o texto ao passar mouse, div:hover > p {display:block;} tudo dentro do style, escolher cor para aparecer
+
+mudar cor do link ou página ao ser visitado => a:visited {editar css}
+
+mudar marcação ao clicar cor, estilo etc => a:active
+
+classe::before ou after para aparecer texto antes ou depois
+
+SELETORES PERSONALIZADOS
+# ID
+. CLASSE
+: PSEUDO-CLASS
+:: PSEUDO-ELEMENT
+> CHILDREN
+
+border -> borda em volta de algo
+padding -> espaço interno entre texto/imagem e a borda
+margin -> espaço externo após a borda
+outline -> cortorno sobre a borda
+
+Header - cabeçalho
+Main - conteudo
+section - seção
+article - artigo
+aside
+footer
+
+border - top left / top right / bottom right / bottom left
+
+margin, paddind - top / right / bot / left
+
+transition-duration: .5s; (tempo para ocorrer um efeito de hover)
+
+text-indent: 50px; ---- paragrafo

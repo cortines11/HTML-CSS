@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font: normal normal 16px  "arial", Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+        
+        a:active{
+            color:chocolate;
+        }
+
+        .especial::before{
+            content:'> ';
+        }
+
+        .especial::after{
+            after:' |';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a class="especial" href="https://gustavoguanabara.github.io">Repositório GITHUB</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do Youtube</a></li>
+        <li><a class="especial" href="https://www.cursoemvideo.com">Site do CUrsoEmVideo</a></li>
+    </ul>
+    
+</body>
+</html>
