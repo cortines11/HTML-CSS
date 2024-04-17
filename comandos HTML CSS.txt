@@ -148,3 +148,10 @@ background-size;
 cover - preenche o espaço e corta um pouco a imagem
 contain - deixa a imagem inteira aparecendo independente do tamanho da tela (não irá preencher)
 100% 100% - estica a imagem em qualquer direção
+
+background position ; onde sera o foco da imagem
+background repeat ; se o fundo repete em xy  ou não
+background attachment ; se o fundo rolara com o conteúdo ou não
+
+shorthand - background
+cor > imagem > position > repeat > [size] (se imagem sumir usar em outra liha) > attachment
