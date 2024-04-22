@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'sri' ;
+    src: url(../fontes/Sriracha-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'one';
+    src: url(../fontes/PassionOne-Regular.ttf) format ('truetype');
+    font-weight: normal;
+}
+
+:root{
+--rosa: #D700DB;
+--piscina: #00DBB6;
+--vermelho: #DF0000;
+--amarelo: #E0DD00;
+--verde: #3CAB00;
+--fonte-letra: 'sri';
+}
+body{ 
+    margin: 0px;
+
+}
+
+section{
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    color: white;
+    font: normal normal 1.3em one;
+}
+
+
+article{
+    max-width: 900px;
+    margin: auto;
+}
+
+ article p{
+    font: normal normal 1.2em sri;
+    padding: 5px;
+  
+}
+
+#comeco{
+    background-color: var(--piscina);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#imagemfundo{
+    background-image: url(../imagens/background2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#meio{
+    display: block;;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50%;
+    max-width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #d700dbce;
+    
+}
+
+#imagemfinal {
+    background-image: url(../imagens/background1.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+#final{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50%;
+    max-width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #d700dbce;
+
+}
+
+#fim {
+    background-color: var(--piscina);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
