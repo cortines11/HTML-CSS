@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    border-bottom: 1px solid white;
+    border-color: white;
+    padding: 10px;
+}
+
+main h2 {
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+ol {
+    max-width: 600px;
+    columns: 2;
+}
+
+div > li:hover {
+    background-color: rgba(114, 114, 114, 0.377);
+    border: 1px solid white;
+    color: white
+}
+
+li {
+    padding: 5px;
+    font: normal normal 1.2em Sri;
+    color: rgb(212, 212, 212);
+}
+
+aside{
+}
+
+aside h3{
+    display: block;
+    padding: 25px;
+}
+
+img {
+    
+    padding-right: 25px;
+}
+
