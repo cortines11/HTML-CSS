@@ -24,21 +24,27 @@ ol {
     border-bottom: 1px solid rgb(204, 173, 88);
     padding-bottom: 10px;
     margin: auto;
+    text-decoration: none;
 }
 
-div > li:hover {
-    background-color: rgba(114, 114, 114, 0.377);
-    border: 1px solid white;
+a {
+    text-decoration: none;
     color: white;
-    max-width: 350px;
+}
+
+a:hover {
+    color: rgb(190, 153, 50);
+}
+
+li:hover {
+    color: rgb(190, 153, 50);
 }
 
 li {
     padding: 5px;
     font: normal normal 1.2em Sri;
-    color: rgb(212, 212, 212);
-    
-
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 aside{

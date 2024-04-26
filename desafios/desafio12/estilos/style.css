@@ -32,8 +32,17 @@ section{
     color: white;
     font: normal normal 1.3em one;
     text-align: center;
+    font-variant: small-caps;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 article{
     max-width: 900px;
