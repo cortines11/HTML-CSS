@@ -155,3 +155,7 @@ background attachment ; se o fundo rolara com o conteúdo ou não
 
 shorthand - background
 cor > imagem > position > repeat > [size] (se imagem sumir usar em outra liha) > attachment
+
+tr > para criar linhas nas tabelas
+td > criar o dado da linha
+border collapse > juntar bordas
