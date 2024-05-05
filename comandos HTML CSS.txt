@@ -159,7 +159,46 @@ cor > imagem > position > repeat > [size] (se imagem sumir usar em outra liha) >
 table > criar tabela
 tr > para criar linhas nas tabelas
 td > criar o dado da linha
+
+tabelas grandes;
+
+thead (cabeçalho
+tr (linha do cabeçalho
+th titulo da linha
+
+tbody (corpo da tabela)
+tr (linha da tabela)
+td (dados da linha do corpo)
+
+tfoot(ultima linha da tabela)
+th (titulo da linha)
+td (dados da linha)
+
+caption > legenda da tabela
+
 border collapse > juntar bordas
 
 border-collapse > juntar bordas (bom pra tabela)
 vertical-align > top middle bottom > alinhas texto verticalmente
+
+usar th scope="col" quando os dados do titulo estão abaixo dele na mesma coluna
+usar th scope="row" quando os dados do titulos estão na mesma linha que ele
+scope serve para mecanismos de busca entenderem melhor sua tabela
+
+psudeo classe nth-child() usar nth-child(2n) para zebrar a tabela
+
+nth-child(odd) é impar
+nth-child(even) é par 
+nesse modo pode escolher duas cores para o efeito zebra
+exemplo: tr:nth-child(2n) {
+background-color: grey}
+
+cabeçalho fixo;
+usar position:relative em table
+
+depois filtrar o caminho usar thead > tr > th (titulo que esta dentro da linha que esta dentro do cabeçalho)
+usar position: sticky;
+usar top:0 ou -1px; (depende se o text aparecer por cima do cabeçalho) para fixar o cabeçalho no topo
+
+rowspan para expandir a quantidade de linhas
+colspan para expandir a quantidade de colunas
