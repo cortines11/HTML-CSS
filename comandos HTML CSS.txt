@@ -202,3 +202,9 @@ usar top:0 ou -1px; (depende se o text aparecer por cima do cabeçalho) para fix
 
 rowspan para expandir a quantidade de linhas
 colspan para expandir a quantidade de colunas
+
+colgroup > agrupar coluna para edição 
+col > usar comando dentro do colgroup para a quantidade de colunas da sua tabela
+span > usar span para selecionar mais de uma coluna para o mesmo col
+
+overflow-x > tabela responsiva, criar uma div, editar em css
