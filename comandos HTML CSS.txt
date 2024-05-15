@@ -208,3 +208,6 @@ col > usar comando dentro do colgroup para a quantidade de colunas da sua tabela
 span > usar span para selecionar mais de uma coluna para o mesmo col
 
 overflow-x > tabela responsiva, criar uma div, editar em css
+
+dentro do <iframe> utilizar name="qualquer" para poder direcionar o frame para um dos links
+dentro do <a> utilizar o _target="qualquer" ou o nome que você utilizou no name
