@@ -211,3 +211,4 @@ overflow-x > tabela responsiva, criar uma div, editar em css
 
 dentro do <iframe> utilizar name="qualquer" para poder direcionar o frame para um dos links
 dentro do <a> utilizar o _target="qualquer" ou o nome que você utilizou no name
+dentro do iframe utilizar srcdoc="" para pode escrever um texto dentro do iframe
